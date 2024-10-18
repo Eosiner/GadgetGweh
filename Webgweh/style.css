@@ -14,6 +14,7 @@ body {
     width: 1100px;
     margin: auto;
     position: relative;
+   
 }
 
 .logo a {
@@ -38,7 +39,7 @@ nav {
     top: 0;
     background: #FFFFFF;
     z-index: 1;
-    border-bottom:1px solid #364f6b;
+    border-bottom:1px solid #000000;
 }
 
 nav ul {
@@ -67,7 +68,7 @@ nav ul li a:hover {
 section {
     margin: auto;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .kolom {
@@ -101,8 +102,13 @@ a.tbl-biru{
     cursor: pointer
 }
 
-a.tbl-biru.hover{
-    background: #f76c6c;
+a.tbl-biru:hover{
+    background: #ff0000;
+    text-decoration: none;
+}
+
+a.tbl-pink:hover{
+    background: #6877ff;
     text-decoration: none;
 }
 
@@ -113,6 +119,11 @@ a.tbl-pink{
     padding: 15px 20px 15px 20px;
     color:#FFFFFF ;
     cursor: pointer
+}
+
+a.tbl-pink.hover{
+    background: #6877ff;
+    text-decoration: none;
 }
 
 p{
